@@ -1,0 +1,32 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "weather-app journal master",
+  "main": "server.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\"",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furbo1/UD-FED-Weather-Journal-App.git"
+  },
+  "keywords": [
+    "udacity",
+    "frontend",
+    "nanodegree",
+    "weather",
+    "app"
+  ],
+  "author": "Alex Cocan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/furbo1/UD-FED-Weather-Journal-App/issues"
+  },
+  "homepage": "https://github.com/furbo1/UD-FED-Weather-Journal-App#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

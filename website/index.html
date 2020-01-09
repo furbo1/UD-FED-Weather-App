@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Weather Application</title>
+  <link rel="stylesheet" type="text/css" media="all" href="style.css">
+</head>
+
+<body>
+
+	<section id="container">
+		<h2>Weather Application</h2>
+		<form name="hongkiat" id="hongkiat-form" method="post" action="#">
+		<div id="wrapping" class="clearfix">
+			<section id="aligned">
+			<input type="text" name="name" id="zip" placeholder="Enter Zip Code" autocomplete="off" tabindex="1" class="txtinput">
+			<textarea name="message" id="feelings" placeholder="Enter your feelings here..." tabindex="5" class="txtblock"></textarea>
+			<section id="buttons">
+			<input type="button" id="submitbtn" class="submitbtn" tabindex="7" value="Generate" onclick="loaddata();">
+			<br style="clear:both;">
+			</section>
+			</section>
+			
+			<section id="aside" class="clearfix">
+				
+				<section id="prioritycase">
+					<h2 style="margin: 0;">About Weather : </h2>
+					<span class="weather">
+						
+						<label id="item">Date : </label>
+						<label id="date" class="syle"></label>
+					</span>
+				
+					<span class="weather">
+						
+						<label id="item">Temperature : </label>
+						<label id="temp" class="syle"></label>
+					</span>
+				
+					<span class="weather">
+						
+						<label id="item">Feelings : </label>
+						<label id="content" class="syle"></label>
+					</span>
+				</section>
+				
+			</section>
+		</div>
+
+
+		
+		</form>
+	</section>
+<script src="app.js" type="text/javascript"></script>
+</body>
+</html>
